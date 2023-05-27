@@ -1,9 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T08:24:22.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.3.4" etag="JLSiYEBU5aoI6qw4vk1U" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T08:41:32.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VG9rNP_4vIvUJwQgDekD" version="21.3.4" type="github">
   <diagram name="第 1 页" id="C09bqDwhDFhUSsKEauQc">
-    <mxGraphModel>
+    <mxGraphModel dx="1436" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--1" target="KzDniq9uvfFXgd2qiNJ--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--2" target="KzDniq9uvfFXgd2qiNJ--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--2" value="初始化分析表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--3" target="KzDniq9uvfFXgd2qiNJ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--3" value="n = 产生式个数&lt;br&gt;i = 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--7" target="KzDniq9uvfFXgd2qiNJ--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--7" value="i ++" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--49" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--8" target="KzDniq9uvfFXgd2qiNJ--46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--50" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--8" target="KzDniq9uvfFXgd2qiNJ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--8" value="i &amp;lt; n" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--9" target="KzDniq9uvfFXgd2qiNJ--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--9" value="获取当前产生式的左部右部" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--10" value="遍历产生式右部每个字符ch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--12" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--11" target="KzDniq9uvfFXgd2qiNJ--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--22" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--11" target="KzDniq9uvfFXgd2qiNJ--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--11" value="ch是否是终结符" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--16" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--14" target="KzDniq9uvfFXgd2qiNJ--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--21" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--14" target="KzDniq9uvfFXgd2qiNJ--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--14" value="ch 前面一位是非终结符" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--15" target="KzDniq9uvfFXgd2qiNJ--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--15" value="任何a属于LASTVT[P],a &amp;gt; ch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--20" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.378;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--17" target="KzDniq9uvfFXgd2qiNJ--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--26" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--17" target="KzDniq9uvfFXgd2qiNJ--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--17" value="ch后面一位是非终结符" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--18" target="KzDniq9uvfFXgd2qiNJ--28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="608" />
+              <mxPoint x="460" y="780" />
+              <mxPoint x="710" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--18" value="ch&amp;lt;该非终结符的FIRST_VT集合中的每个元素" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="578" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--27" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--24" target="KzDniq9uvfFXgd2qiNJ--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--31" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--24" target="KzDniq9uvfFXgd2qiNJ--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--24" value="ch后面一位是终结符" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="680" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--25" target="KzDniq9uvfFXgd2qiNJ--28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="780" />
+              <mxPoint x="710" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--25" value="ch = 终结符" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--36" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--28" target="KzDniq9uvfFXgd2qiNJ--35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--28" target="KzDniq9uvfFXgd2qiNJ--8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="840" />
+              <mxPoint x="800" y="990" />
+              <mxPoint x="380" y="990" />
+              <mxPoint x="380" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--42" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KzDniq9uvfFXgd2qiNJ--40">
+          <mxGeometry x="-0.898" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--28" value="ch后面第二位是终结符" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="800" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KzDniq9uvfFXgd2qiNJ--35" target="KzDniq9uvfFXgd2qiNJ--8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="990" />
+              <mxPoint x="380" y="990" />
+              <mxPoint x="380" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--35" value="ch = 终结符" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KzDniq9uvfFXgd2qiNJ--46" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
